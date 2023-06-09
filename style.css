@@ -55,6 +55,7 @@ h2::before {
   color: #707070;
   font-size: 12px;
   font-weight: bolder;
+  padding-bottom: 9px;
 }
 
 h3 {
