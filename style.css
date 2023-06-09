@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -13,7 +14,7 @@ p {
 
 .container {
   border: 4px solid #000;
-  width: 825px;
+  width: 820px;
   margin: 0 auto;
   margin-top: 40px;
 }
@@ -141,4 +142,30 @@ ul li {
 
 .c-black {
   border: 1px solid black;
+}
+.shoe {
+  float: left;
+}
+
+.shipping-details {
+  float: left;
+  width: 300px;
+  padding: 25px;
+}
+.price {
+  float: left;
+}
+.shipping-cost {
+  margin-top: 4px;
+  float: right;
+}
+.shipping-desc {
+  clear: both;
+}
+.product-details {
+  float: right;
+  width: 250px;
+}
+.add-cart {
+  clear: both;
 }
